@@ -12,3 +12,8 @@ to do a CTRL-C.
 After you started the server, you need to execute two instances of the clients. This is done via the command:  
 ```client <hostname> <port>``` (note: the server only accept 10678 as a valid port)  
 So you can for example run ```./client localhost 10678``` if the client is executed on the same machine as the server.
+
+# How to complile?
+
+Initialize cmake with a build directory different from the source directory. For example ```cmake -B build```.  
+Then build the project with ```cmake --build build```.
